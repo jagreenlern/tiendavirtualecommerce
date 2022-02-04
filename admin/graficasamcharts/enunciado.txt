@@ -1,0 +1,21 @@
+Tomando datos de poblacion.sql se pide:
+
+1.-Proporciona un fichero listar_anho.php que permita seleccionar una provincia y un anho de los que se tienen datos. Al enviar los datos del formulario obtendremos algo del tipo 
+
+En Almería en 1987 vivían 30.012 hombres y 32.456 mujeres 
+
+La idea es hacer direcciones amigables
+
+informe-anual/48/1985/
+informe-anual/bizkaia/1985/
+
+
+ESCRIBE la función menu_provincias()
+En vez de un desplegable y un botón de envio haces una llamada get al propio documento.
+Debajo del menú haces el gráfico correspondiente a esa provincia.
+
+
+2.-Proporciona un desplegable de provincias que al enviar los datos muestre un gráfico realizado cn amcharts con la evolución de población en esa provincia en los años de que se dispone
+
+informe-completo/48/
+informe-completo/bizkaia/

@@ -1,0 +1,18 @@
+La idea de las direcciones es doble:
+
+Proteger nuestra tecnología 
+
+Hacer la página más amigable para el usuario.
+
+Para ello usamos el fichero .htaccess
+
+Debemos imaginar que /~juanjo/00_segundo/33_poblacion/amigables sería la URL de nuestro dominio.
+
+www.misitio.com
+
+La idea es que nuestras páginas están en 
+
+amigable/informe-completo/número/
+
+Si quiero que los enlaces funcionen correctamente, debo cambiar 
+grafico_provincia.php?prov=21 por informe-completo/21/

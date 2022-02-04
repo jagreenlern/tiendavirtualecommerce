@@ -1,0 +1,32 @@
+RewriteBase /~juanjo/00_segundo/33_poblacion/amigables/
+#Arrancamos el motor de reescritura
+RewriteEngine on
+#Si solo pone la URL del dominio, le pongo detrás informe-completo
+
+ RewriteRule ^/?$ ./informe-completo/ [NC,R=301]
+
+# Opciones entre corchetes, se separan por comas
+# NC............No case
+# R=301.........Redireccionamiento
+
+#Si escribe deuda sin el / final, se lo pongo yo
+
+ RewriteRule ^/?informe-completo$ ./informe-completo/ [NC,R=301]
+
+# Opciones entre corchetes, se separan por comas
+# NC............No case
+# R=301.........Redireccionamiento
+
+RewriteRule ^/?informe-completo/$ ./grafico_provincia.php [NC,L]
+
+# Opciones entre corchetes, se separan por comas
+# NC............No case
+# L.............Last
+
+RewriteRule ^/?informe-completo/(\d+)$ ./informe-completo/$1/ [NC,R=301]
+
+RewriteRule ^/?informe-completo/(\d+)/$ ./grafico_provincia.php?prov=$1 [NC,L]
+
+RewriteRule ^/?informe-completo/([a-z0-9\-]+)/$ ./grafico_provincia.php?nom_prov=$1 [NC,L]
+
+#Options -Indexes

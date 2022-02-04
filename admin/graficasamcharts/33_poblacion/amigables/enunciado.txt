@@ -1,0 +1,27 @@
+Tomando datos de poblacion.sql se pide:
+
+1.-Proporciona un fichero listar_anho.php que permita seleccionar una provincia y un anho de los que se tienen datos. Al enviar los datos del formulario obtendremos algo del tipo 
+
+En Almería en 1987 vivían 30.012 hombres y 32.456 mujeres 
+
+La idea es hacer direcciones amigables
+
+informe-anual/48/1985/
+informe-anual/bizkaia/1985/
+
+
+ESCRIBE la función menu_provincias()
+En vez de un desplegable y un botón de envio haces una llamada get al propio documento.
+Debajo del menú haces el gráfico correspondiente a esa provincia.
+
+
+2.-Proporciona un desplegable de provincias que al enviar los datos muestre un gráfico realizado cn amcharts con la evolución de población en esa provincia en los años de que se dispone
+
+informe-completo/48/
+informe-completo/bizkaia/
+
+3.-Escribe una regla que te lleve de informe-anual/ a pedir_datos_anuales.html. Que vean fotos/iconos
+
+4.-Escribir una regla que te lleve de informe-anual/48/1985/ a datos_anuales.php?prov=48&anho=1985 Ajusta fotos/iconos
+
+5.-Modifica el formulario pedir_datos_anuales.html para que cambie el botón de envío por un enlace en el que se van metiendo los valores seleccionados en el formulario. Es decir, el botón de envio realmente es un enlace y su url si hay seleccionado Bizkaia y 1999 es informe-anual/48/1999/ Si se selecciona otro año o provincia la url cambia desde javascript. Al pulsar el "botón de envío" te manda al formulario

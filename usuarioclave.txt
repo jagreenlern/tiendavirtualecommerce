@@ -1,0 +1,11 @@
+bd: shopping VIENE ENCRIPTADAD
+Para acceder como usuario puedes utilizar:
+Usuario: platea21@platea21.com
+Contraseña: platea21
+usuario2:jagreenlern@gmail.com
+clave 666666
+
+Para acceder como administrador "/admin":
+Usuario: admin
+Contraseña: platea21
+
